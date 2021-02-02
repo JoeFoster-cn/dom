@@ -1,7 +1,7 @@
 //cycle over the list items and apply colors from the array called colours
 
 //creating variable called colours with list of colours
-const colours = ['red', 'blue', 'yellow', 'blue'];
+const colours = ['red', 'yellow', 'goldenrod', 'lightgreen', 'blue', 'purple'];
 const listItems = document.querySelectorAll("li");
 // creating variable called listItems that contains all of the "li" tags in the HTML doc
 
