@@ -8,7 +8,7 @@
     <title>Keycode</title>
 </head>
 
-<body id="page-wrapper" onkeydown=""myKeycode(event)>
+<body id="page-wrapper">
    <!-- <div class="display">
         <table class="table hide">..</table>
             <thead>
@@ -24,18 +24,24 @@
             <p class="keycode-display"></p>
         </div>
 
-        <div class="initial-display">
+        <div id="initial-display">
             <p class="text-display hide">Press a key to see the event keycode</p>
         </div>
 
         <div class="eventinfo">
-            <table>
-                
-            </table>
+            <div class="eventkey">
+                <p>event.key</p>
+            </div>
+
+            <div class="eventcode">
+                <p>event.code</p>
+            </div>
+            
+            <div class="eventwhich">
+                <p>event.which</p>
+            </div>
 
         </div>
-
-    </div>
     <script src="app.js"></script>
 </body>
 
