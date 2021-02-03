@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keycode</title>
 </head>
-<body>
-    <div class="initial-display">
-        <p class="text-display hide">Press a key to see the event keycode</p>
 
+<body id="page-wrapper">
+   <!-- <div class="display">
+        <table class="table hide">..</table>
+            <thead>
+                <tr>
+                    <th>Key Code</th>
+                    <th>Key</th>
+                </tr>
+            </thead>
+           <tbody class="table-body">..</tbody> 
+        </table>-->
 
+        <div id="initial-display">
+            <p class="text-display">Press a key to see the event keycode</p>
+        </div>
 
+        <div id="keycode">
+            <p class="keycode-display">number</p>
+        </div>
 
-    </div>
+        <div class="eventinfo">
+            <div id="eventkeydiv">
+                <p id="keytext">event.key</p>
+                <p id="eventkey">event.key</p>
+            </div>
 
+            <div id="eventcodediv">
+                <p id="codetext">event.code</p>
+                <p id="eventcode">event.code</p>
+            </div>
+            
+            <div id="eventwhichdiv">
+                <p id="whichtext">event.which</p>
+                <p id="eventwhich">event.which</p>
+            </div>
 
+        </div>
     <script src="app.js"></script>
 </body>
+
 </html>
