@@ -5,6 +5,9 @@ const eventInfo = document.querySelector("eventinfo");
 const eventKey = document.querySelector("#eventkey");
 const eventCode = document.querySelector("#eventcode");
 const eventWhich = document.querySelector("#eventwhich");
+const keyText = document.querySelector("#keytext");
+const codeText = document.querySelector("#codetext");
+const whichText = document.querySelector("#whichtext");
 
 //const location = KeyboardEvent.location;
 
@@ -22,6 +25,9 @@ if (initialDisplay.style.display == "none");
     eventKey.style.display = "block";
     eventCode.style.display = "block";
     eventWhich.style.display = "block";
+    keyText.style.display = "block";
+    codeText.style.display = "block";
+    whichText.style.display = "block";
 })
 
 //event parameter is equal to whatever key is pressed on keydown

@@ -1,8 +1,8 @@
 body {
-    height: 200px;
+    height: 1000px;
     background-color: red; 
-    background-image: linear-gradient(to right , rgb(101, 217, 233) , rgb(159, 52, 209));
-
+    background-image: linear-gradient(to left bottom , rgb(159, 52, 209) , rgb(101, 217, 233));
+    
 }
 
 #initial-display {
@@ -15,14 +15,7 @@ body {
 }
 
 
-.eventinfo {
-    display: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 200%
-}
+
 
 #keycode {
     text-align: center;
@@ -34,16 +27,96 @@ body {
     display: none;
 }
 
-#eventkey {
-    padding-right: 20%;
+.eventinfo {
     display: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+}
+
+#eventkeydiv {
+    padding-right: 20%;
+}
+
+#eventcodediv {
+    padding-right: 20%;
+}
+
+#eventkey {
+    display: none;
+
 }
 
 #eventcode {
-    padding-right: 20%;
     display: none;
 }
 
 #eventwhich {
     display: none;
+}
+
+#keytext {
+    display: none;
+    font-weight: bold;
+}
+
+#codetext {
+    display: none;
+    font-weight: bold;
+}
+
+#whichtext {
+    display: none;
+    font-weight: bold;
+}
+
+
+@media only screen and (min-width: 412px) and (max-width: 768px) {
+    
+    #keytext {
+        font-weight: bold;
+    }
+
+    #codetext {
+        font-weight: bold;
+    }
+
+    #whichtext {
+        font-weight: bold;
+    }
+    
+    .eventinfo {
+        display:flex;
+        flex-direction: column;
+        font-size: 100%;
+    }
+
+    #keycode {
+        padding-top: 50%;
+        padding-bottom: 0%;
+        font-size: 300%;
+
+    }
+
+    #initial-display {
+        padding-top: 50%;
+        font-size: 300%;
+
+        
+    }
+
+    #eventkeydiv {
+        padding-right: 0%;
+    }
+    
+    #eventcodediv {
+        padding-right: 0%;
+    }
+
+    body {
+        background-image: linear-gradient(to bottom , rgb(159, 52, 209) , rgb(101, 217, 233));
+    }
 }
