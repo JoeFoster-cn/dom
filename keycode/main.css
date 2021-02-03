@@ -1,0 +1,13 @@
+body {
+    height: 200px;
+    background-color: red; 
+    background-image: linear-gradient(to right , rgb(101, 217, 233) , rgb(159, 52, 209));
+
+}
+
+.initial-display {
+    padding-top: 15%;
+    font-size: 600%;
+    text-align: center;
+
+}
