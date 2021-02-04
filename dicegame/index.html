@@ -3,30 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Dice Game</title>
 </head>
 <body>
-    <div class="gamearea">
+    <div class="gamearea" div style="width:600px; margin:0 auto;">
         <button id="restart">start again</button>
         <p id="player">Player 1</p>
         <p id="score">0</p>
-
-            <div class="dice first-face">
+            
+        <div class="die">
+        
+            <div class="dice" id="first-face">
             <span class="dot"> </span>
             </div>
 
-            <div class="dice second-face">
+            <div class="dice" id="second-face">
                 <span class="dot"> </span>
                 <span class="dot"> </span>
             </div>
 
-            <div class="dice third-face">
+            <div class="dice" id="third-face">
                 <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
             </div>
 
-            <div class="fourth-face dice">
+            <div class="dice" id="fourth-face">
                 <div class="column">
                     <span class="dot"></span>
                     <span class="dot"></span>
@@ -39,7 +42,7 @@
                 </div>
             </div>
 
-            <div class="fifth-face dice">
+            <div class="dice" id="fifth-face">
   
                 <div class="column">
                   <span class="dot"></span>
@@ -55,6 +58,7 @@
                   <span class="dot"></span>
                 </div>
             </div>
+        </div>
 
         <button id="roll">roll</button>
     </div>

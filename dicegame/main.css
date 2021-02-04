@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+    height: 700px;
+    background-color: red; 
+    background-image: linear-gradient(to right , rgb(240, 177, 83) , rgb(223, 74, 55)); 
+    font-family: monospace;
+    padding-top: 10%;
+}
+
+.gamearea {
+    text-align: center;
+    border: rgb(236, 225, 225) solid 6px;
+    border-style: ridge;
+    padding: 2%;
+    height: 400px;
+}
+
+/*start again button*/
+#restart {
+    font-family: monospace;
+    font-size: 200%;
+    background: goldenrod;
+}
+
+/*roll button*/
+#roll {
+    font-family: monospace;
+    font-size: 200%;
+    background: goldenrod;
+    
+}
+
+#player {
+    font-size: 300%;
+}
+
+#score {
+    font-size: 200%;
+    font-family: monospace;
+}
+
+.die {
+    display: none;
+}
+
+
 /*dice box*/
 .dice {  
     padding: 4px;  
@@ -5,6 +52,7 @@
     width: 104px;  
     height: 104px;  
     border-radius: 10%;
+    display: none;
 }
 
 /*dot style uniform*/
@@ -17,58 +65,58 @@
 }
 
 /*first face*/
-.first-face {
+#first-face {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /*second face*/
-.second-face {
+#second-face {
     display: flex;
     justify-content : space-between;
 }
 
-.second-face .dot:nth-of-type(2) {
+#second-face .dot:nth-of-type(2) {
     align-self: flex-end;
 }
 
 /* third face, does this need to say third face? */
-.second-face {
+#second-face {
     display: flex;
     justify-content : space-between;
 }
 
-.second-face .dot:nth-of-type(3) {
+#second-face .dot:nth-of-type(3) {
     align-self: flex-end;
 }
 
-.second-face .dot:nth-of-type(2) {
+#second-face .dot:nth-of-type(2) {
     align-self: center;
 }
 
 /* fourth face */
-.fourth-face {
+#fourth-face {
     display: flex;
 }
 
-.fourth-face .column {
+#fourth-face .column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 /* fifth face */
-.fifth-face {
+#fifth-face {
     display: flex;
 }
 
-.fifth-face .column {
+#fifth-face .column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.fifth-face .column:nth-of-type(2) {
+#fifth-face .column:nth-of-type(2) {
     justify-content: center;
 }
