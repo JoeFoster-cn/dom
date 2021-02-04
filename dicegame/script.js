@@ -11,7 +11,7 @@ let rollScore = 0;
 //roll click event, diceroll generates number, rollscore 0 becomes 0 + the diceroll
 roll.addEventListener("click", (event) => {
     const diceRoll = Math.floor(Math.random()*6) + 1;
-    rollScore = rollScore + diceRoll
+    rollScore = rollScore += diceRoll
 //if the rollscore is greater than or equal to 20 you win
     if (rollScore >= 20) {
         result.innerHTML = "winner";
@@ -23,29 +23,21 @@ roll.addEventListener("click", (event) => {
         result.innerHTML = "You lost!"; //you lose
         score.innerHTML = rollScore; //shows score
         restart.style.display = "block"; //start again button
-        
     }
 //else show player 1, their score = to rollscore,  
     else {
         result.innerHTML = "Player 1";
         score.innerHTML = rollScore;
-
-
+//img shortcut + variable + file name
     }
     let diceNum = document.getElementById("diceImg").src = "./img/dice" + diceRoll + ".png";
     diceNum = document.querySelector("#diceImg");
     diceNum.style.display = "block"; 
 })
-
-
 restart.addEventListener("click", (event) => {
     location.reload();
 });
 
-/*trying to use roll button to reset page after losing
-roll.addEventListener("click", (event) => {
-    if (result == "You lost!")
-    location.reload();
-});*/
+
 
  
