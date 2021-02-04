@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+    height: 700px;
+    background-color: red; 
+    background-image: linear-gradient(to right , rgb(240, 177, 83) , rgb(223, 74, 55)); 
+    font-family: monospace;
+    padding-top: 10%;
+}
+
+.gamearea {
+    text-align: center;
+    border: rgb(236, 225, 225) solid 6px;
+    border-style: ridge;
+    padding: 2%;
+    height: 400px;
+}
+
+/*start again button*/
+#restart {
+    display: none;
+    font-family: monospace;
+    font-size: 200%;
+    background: goldenrod;
+    margin-left: 35%;
+}
+
+/*roll button*/
+#roll {
+    font-family: monospace;
+    font-size: 200%;
+    background: goldenrod;
+}
+
+#player {
+    font-size: 300%;
+}
+
+#score {
+    font-size: 200%;
+    font-family: monospace;
+
+}
+
+#diceImg {
+    display: none;
+    padding-left: 37%;
+}
+
