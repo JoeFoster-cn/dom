@@ -18,9 +18,11 @@ body {
 
 /*start again button*/
 #restart {
+    display: none;
     font-family: monospace;
     font-size: 200%;
     background: goldenrod;
+    margin-left: 35%;
 }
 
 /*roll button*/
@@ -28,7 +30,6 @@ body {
     font-family: monospace;
     font-size: 200%;
     background: goldenrod;
-    
 }
 
 #player {
@@ -65,58 +66,58 @@ body {
 }
 
 /*first face*/
-#first-face {
+#face-1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /*second face*/
-#second-face {
+#face-2 {
     display: flex;
     justify-content : space-between;
 }
 
-#second-face .dot:nth-of-type(2) {
+#face-2 .dot:nth-of-type(2) {
     align-self: flex-end;
 }
 
 /* third face, does this need to say third face? */
-#second-face {
+#face-3 {
     display: flex;
     justify-content : space-between;
 }
 
-#second-face .dot:nth-of-type(3) {
+#face-3 .dot:nth-of-type(3) {
     align-self: flex-end;
 }
 
-#second-face .dot:nth-of-type(2) {
+#face-3 .dot:nth-of-type(2) {
     align-self: center;
 }
 
 /* fourth face */
-#fourth-face {
+#face-4 {
     display: flex;
 }
 
-#fourth-face .column {
+#face-4 .column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 /* fifth face */
-#fifth-face {
+#face-5 {
     display: flex;
 }
 
-#fifth-face .column {
+#face-5 .column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#fifth-face .column:nth-of-type(2) {
+#face-5 .column:nth-of-type(2) {
     justify-content: center;
 }
