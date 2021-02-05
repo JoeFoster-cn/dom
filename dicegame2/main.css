@@ -96,7 +96,7 @@ body {
 .buttonbox {
     position: absolute;
     width: 150px;
-    left: 245px;
+    left: 230px;
     top: 80px;
 }
 
@@ -108,7 +108,7 @@ body {
 #restart {
     margin-bottom: 150%;
     font-family: "Quicksand", monospace;
-    font-size: 100%;
+    font-size: 120%;
     border: none;
     background: none;
 }
@@ -116,24 +116,24 @@ body {
 /*roll button*/
 #roll::before {
     font-family: fontAwesome;
-    content: "\f055\00a0";
+    content: "\f2f1\00a0";
 }
 #roll {
     display: none;
     font-family: "Quicksand", monospace;
-    font-size: 100%;
+    font-size: 120%;
     border: none;
     background: none;
 }
 
 #hold::before {
     font-family: fontAwesome;
-    content: "\f055\00a0";
+    content: "\f0ab\00a0";
 }
 #hold {
     display: none;
     font-family: "Quicksand", monospace;
-    font-size: 100%;
+    font-size: 120%;
     border: none;
     background: none;
 }
