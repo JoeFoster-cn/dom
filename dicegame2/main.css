@@ -44,17 +44,19 @@ body {
 }
 
 #score1 {
+    padding-top: 5%;
     font-size: 350%;
     text-align: center;
 }
 
 #score2 {
+    padding-top: 5%;
     font-size: 350%;
     text-align: center;
 }
 
 .current1 {
-    margin: 30%;
+    margin: 35%;
     border: red;
     background-color: rgb(230, 80, 26);
 }
@@ -68,7 +70,7 @@ body {
 }
 
 .current2 {
-    margin: 30%;
+    margin: 35%;
     border: red;
     background-color: rgb(230, 80, 26);
 }
@@ -81,58 +83,61 @@ body {
 
 }
 
+/*dice*/
 
+#diceImg {
+    display: none;
+    position: absolute;
+    width: 15%;
+    padding-left: 42.5%;
+    padding-top: 25%;
+}
+
+.buttonbox {
+    position: absolute;
+    width: 150px;
+    left: 245px;
+    top: 80px;
+}
 
 /*start again button*/
 #restart::before {
     font-family: fontAwesome;
-    content: "\f067\00a0";
+    content: "\f055\00a0";
 }
 #restart {
+    margin-bottom: 150%;
     font-family: "Quicksand", monospace;
     font-size: 100%;
     border: none;
     background: none;
-    position: absolute;
-    padding-left: 42%;
-    padding-top: 15%;
 }
-
-
-
 
 /*roll button*/
 #roll::before {
     font-family: fontAwesome;
-    content: "\f067\00a0";
+    content: "\f055\00a0";
 }
 #roll {
+    display: none;
     font-family: "Quicksand", monospace;
     font-size: 100%;
     border: none;
     background: none;
-    position: absolute;
-    padding-top: 50%;
-    padding-left: 42%;
 }
 
 #hold::before {
     font-family: fontAwesome;
-    content: "\f067\00a0";
+    content: "\f055\00a0";
 }
 #hold {
+    display: none;
     font-family: "Quicksand", monospace;
     font-size: 100%;
     border: none;
     background: none;
-    position: absolute;
-    padding-top: 55%;
-    padding-left: 45%;
 }
 
 
-#diceImg {
-    display: none;
-    padding-left: 37%;
-}
+
 

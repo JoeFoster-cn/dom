@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b6897e3d2a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
     <title>Dice Game</title>
 </head>
@@ -11,31 +12,35 @@
 <body>
 
     <div class="container" div style="width:600px; margin:0 auto;">
-        <button id="restart">NEW GAME</button>
+        <img id="diceImg" src="" width="20%" height="20%">
+        
+
         <div class="box1">
             <p id="player1">Player 1</p>
             <p id="score1">0</p>
             <div class="current1">
-                <p id="currenttext1">CURRENT</p>
+                <p>CURRENT</p>
                 <p id="currentscore1">0</p>
             </div>
+        </div>
+
+        <div class="buttonbox">
+            <button id="restart">NEW GAME</button>
+            <button id="roll">ROLL DICE</button>
+            <button id="hold">HOLD</button>
         </div>
 
         <div class="box2">
             <p id="player2">Player 2</p>
             <p id="score2">0</p>
             <div class="current2">
-                <p id="currenttext2">CURRENT</p>
+                <p>CURRENT</p>
                 <p id="currentscore2">0</p>
-            </div>
-            
+            </div> 
         </div>
 
-        <div class="dice">
-            <img id="diceImg" src="" width="25%" height="25%">
-        </div>
-        <button id="roll">ROLL DICE</button>
-        <button id="hold">HOLD</button>
+       
+
     </div>
 
 
