@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    height: 700px;
+    background-color: red; 
+    background-image: linear-gradient(to right , rgb(240, 177, 83) , rgb(223, 74, 55)); 
+    font-family: monospace;
+    padding-top: 10%;
+}
+
+/*game area*/
+.box1 {
+    font-family: "Quicksand", monospace;
+    background: rgb(219, 164, 68);
+    text-align: center;
+    width: 500px;
+}
+
+.box2 {
+    font-family: "Quicksand", monospace;
+    background: whitesmoke;
+    width: 500px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border: rgb(236, 225, 225) solid 6px;
+    border-style: ridge;
+    height: 400px;
+    width: 1000px;
+}
+
+#player1 {
+    font-size: 250%;
+    text-align: center;
+}
+
+#player2 {
+    font-size: 250%;
+    text-align: center;
+}
+
+#score1 {
+    padding-top: 5%;
+    font-size: 350%;
+    text-align: center;
+}
+
+#score2 {
+    padding-top: 5%;
+    font-size: 350%;
+    text-align: center;
+}
+
+.current1 {
+    margin: 35%;
+    border: red;
+    background-color: rgb(230, 80, 26);
+}
+
+.current2 {
+    margin: 35%;
+    border: red;
+    background-color: rgb(230, 80, 26);
+}
+
+/*dice*/
+
+#diceImg {
+    display: none;
+    position: absolute;
+    width: 15%;
+    padding-left: 42.5%;
+    padding-top: 25%;
+}
+
+.buttonbox {
+    position: absolute;
+    width: 150px;
+    left: 230px;
+    top: 80px;
+}
+
+/*start again button*/
+#restart::before {
+    font-family: fontAwesome;
+    content: "\f055\00a0";
+}
+#restart {
+    margin-bottom: 150%;
+    font-family: "Quicksand", monospace;
+    font-size: 120%;
+    border: none;
+    background: none;
+}
+
+/*roll button*/
+#roll::before {
+    font-family: fontAwesome;
+    content: "\f2f1\00a0";
+}
+#roll {
+    display: none;
+    font-family: "Quicksand", monospace;
+    font-size: 120%;
+    border: none;
+    background: none;
+}
+
+/*hold button*/
+#hold::before {
+    font-family: fontAwesome;
+    content: "\f0ab\00a0";
+}
+#hold {
+    display: none;
+    font-family: "Quicksand", monospace;
+    font-size: 120%;
+    border: none;
+    background: none;
+}
