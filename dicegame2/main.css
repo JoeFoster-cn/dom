@@ -9,6 +9,7 @@ body {
     padding-top: 10%;
 }
 
+/*game area*/
 .box1 {
     font-family: "Quicksand", monospace;
     background: rgb(219, 164, 68);
@@ -61,26 +62,10 @@ body {
     background-color: rgb(230, 80, 26);
 }
 
-#currenttext1 {
-
-}
-
-#currentscore1 {
-
-}
-
 .current2 {
     margin: 35%;
     border: red;
     background-color: rgb(230, 80, 26);
-}
-
-#currenttext2 {
-
-}
-
-#currentscore2 {
-
 }
 
 /*dice*/
@@ -126,6 +111,7 @@ body {
     background: none;
 }
 
+/*hold button*/
 #hold::before {
     font-family: fontAwesome;
     content: "\f0ab\00a0";
@@ -137,7 +123,3 @@ body {
     border: none;
     background: none;
 }
-
-
-
-
